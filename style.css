@@ -1,3 +1,21 @@
+.hello{
+    color:  rgb(98, 98, 199);
+    position: relative;
+    left: 90px;
+}
+
 .myname{
-    font-size: 70px;
+    font-size: 90px;
+    color: rgb(47, 47, 47);
+    margin-top: -17px;
+    position: relative;
+    left: 90px;
+}
+
+.mycareer{
+    font-size: 100px;
+    color: rgb(65, 65, 100);
+    margin-top: -100px;
+    position: relative;
+    left: 90px;
 }
