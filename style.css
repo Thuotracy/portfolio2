@@ -96,9 +96,14 @@ button{
     background-color: white;
 }
 
-#angular{
+.angular{
     height: 30px;
     width: 30px;
 }
+
+.btn-group{
+    display: flex;
+}
+
 
 
