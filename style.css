@@ -34,5 +34,15 @@
 }
 
 #btn{
-    
+    position: relative;
+    left: 90px;
+    color:  rgb(98, 98, 199);
+    border: 1.5px solid  rgb(98, 98, 199);
+    border-radius: 4px;
+    padding: 9px;
+    font-size: 15px;
+    box-sizing: 25px;
+    top: -60px;
+    letter-spacing: 1px;
+    background-color: white;
 }
