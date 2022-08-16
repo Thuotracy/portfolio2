@@ -51,7 +51,7 @@ h1{
     position: relative;
     left: 90px; 
     font-size: 40px;
-    color: rgb(31, 30, 30);
+    color: rgb(41, 41, 41);
 }
 
 h1:before {
@@ -70,4 +70,14 @@ h1:before {
     position: relative;
     left: 90px;
     font-size: 18px;
+    color: rgb(6, 6, 6);
+}
+
+#me{
+    height: 240px;
+    width: 240px;
+    position: relative;
+    left: 750px;
+    top: -240px;
+    border-radius: 8px;
 }
