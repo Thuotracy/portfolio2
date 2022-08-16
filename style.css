@@ -82,10 +82,10 @@ h1:before {
     border-radius: 8px;
 }
 
-button{
+.card1{
     position: relative;
     width: 100px;
-    height: 60px;
+    height: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +95,124 @@ button{
     left: 350px;
     background-color: white;
 }
+
+.card2{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    left: 400px;
+    background-color: white;
+}
+
+.card3{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    left: 450px;
+    background-color: white;
+}
+
+.card4{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    left: 500px;
+    background-color: white;
+}
+
+.card5{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    top: 70px;
+    left: -100px;
+    background-color: white;
+}
+
+.card6{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    top: 70px;
+    left: -40px;
+    background-color: white;
+}
+
+.card7{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    top: 70px;
+    left: 20px;
+    background-color: white;
+}
+
+.card8{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    top: 140px;
+    left: -400px;
+    background-color: white;
+}
+
+.card9{
+    position: relative;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px;
+    border: 1px solid rgb(153, 153, 153);
+    top: 140px;
+    left: -350px;
+    background-color: white;
+}
+
 
 .angular{
     height: 30px;
