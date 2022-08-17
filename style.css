@@ -48,6 +48,7 @@
 }
 
 h1{
+    
     position: relative;
     left: 90px; 
     font-size: 40px;
@@ -70,7 +71,7 @@ h1:before {
     position: relative;
     left: 90px;
     font-size: 18px;
-    color: rgb(6, 6, 6);
+    color: rgb(41, 41, 41);
 }
 
 #me{
@@ -80,6 +81,15 @@ h1:before {
     left: 750px;
     top: -240px;
     border-radius: 8px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 20px;
+    position: relative;
+    top: -170px;
+    color: rgb(41, 41, 41);
 }
 
 .card1{
@@ -221,7 +231,44 @@ h1:before {
 
 .btn-group{
     display: flex;
+    position: relative;
+    top: -150px;
 }
+
+
+/* Style the sidebar - fixed full height */
+.sidebar {
+    height: 35%;
+    width: 160px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 70px;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color:  rgb(98, 98, 199);
+    text-decoration: underline  rgb(98, 98, 199);;
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
 
 
 
