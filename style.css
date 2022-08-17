@@ -3,6 +3,14 @@ html, body {
     overflow-x: hidden;
 }
 
+.label{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
 .navigation-bar{
     text-align: center;
     word-spacing: 40px;
