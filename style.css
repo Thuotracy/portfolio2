@@ -1,7 +1,13 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navigation-bar{
     text-align: center;
-
 }
+
+
 
 .hello{
     color:  rgb(98, 98, 199);
@@ -402,6 +408,46 @@ h3{
     position: relative;
     top:-260px;
     left: 170px;
+}
+
+.center{
+    position: relative;
+    top: -220px;
+    left: 550px;
+    transform: translate(-50px, -50px);
+    width: 400px;
+    background: white;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid rgb(78, 76, 76);
+    margin: 30px 0;
+}
+
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(78, 76, 76);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
 }
 
 
