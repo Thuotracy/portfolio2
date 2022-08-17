@@ -5,9 +5,25 @@ html, body {
 
 .navigation-bar{
     text-align: center;
+    word-spacing: 40px;
+    list-style-type: none;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.894);
+    position: fixed;
+    height: 50px;
+    overflow: auto;
+    margin-left: 300px;
+   
 }
 
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
 
+.nav-link:hover{
+    color: rgb(98, 98, 199);
+}
 
 .hello{
     color:  rgb(98, 98, 199);
