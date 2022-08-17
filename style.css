@@ -235,44 +235,6 @@ h2{
     top: -150px;
 }
 
-
-/* Style the sidebar - fixed full height */
-/* .sidebar {
-    height: 35%;
-    width: 200px;
-    position: relative;
-    z-index: 1;
-    top: 0;
-    left: 120px;
-    background-color: red;
-    overflow-x: hidden;
-    padding-top: 16px;
-  } */
-  
-  /* Style sidebar links */
-  /* .sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-  }
-   */
-  /* Style links on mouse-over */
-  /* .sidebar a:hover {
-    color:  rgb(98, 98, 199);
-    text-decoration: underline  rgb(98, 98, 199);;
-  } */
-  
-  /* Style the main content */
-  /* .main {
-    left: 370px;
-    padding: 0px 10px;
-    position: relative;
-    top: -150px;
-  } */
-
-
 /* Style the tab */
 .tab {
     position: relative;
@@ -297,7 +259,7 @@ h2{
   /* Change background color of buttons on hover */
 .tab button:hover {
     color:  rgb(98, 98, 199);
-    background-color:  rgb(98, 98, 199);;
+    background-color:  rgb(98, 98, 199);
 }
   
   /* Create an active/current "tab button" class */
@@ -320,20 +282,20 @@ h2{
 h3{
     font-size: 25px;
     position: relative;
-    top: -30px;
+    top: 25px;
     color: rgb(41, 41, 41);
 }
 
 .duration{
     position: relative;
-    top: -50px;
+    top: 5px;
     color: rgb(78, 76, 76);
 }
 
 .paragraph{
     font-size: 18px;
     position: relative;
-    top: -45px;
+    top: 10px;
     color: rgb(41, 41, 41);
 }
 
@@ -345,6 +307,19 @@ h3{
     display: inline-block;
     position: relative;
     top: -3px;
-  }
+}
+
+
+#verticalLine {
+    border-left: 2px solid rgb(78, 76, 76);;
+    height: 250px;
+    position: relative;
+    right: -10px;
+}
+
+#verticalLine button:hover{
+  
+}
+
 
 
