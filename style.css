@@ -337,4 +337,14 @@ h3{
     color: rgb(41, 41, 41);
 }
 
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+  }
+
 
