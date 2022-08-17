@@ -279,34 +279,34 @@ h2{
     left: 120px;
     width: 20%;
     height: 300px;
-    background-color: red;
-  }
+}
   
   /* Style the buttons that are used to open the tab content */
-  .tab button {
+.tab button {
     display: block;
     background-color: inherit;
-    color: black;
+    color: rgb(78, 76, 76);
     padding: 22px 16px;
     width: 100%;
     border: none;
     outline: none;
     text-align: left;
     cursor: pointer;
-  }
+}
   
   /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
+.tab button:hover {
+    color:  rgb(98, 98, 199);
+    background-color:  rgb(98, 98, 199);;
+}
   
   /* Create an active/current "tab button" class */
-  .tab button.active {
+.tab button.active {
     background-color: #ccc;
-  }
+}
   
   /* Style the tab content */
-  .tabcontent {
+.tabcontent {
     position: relative;
     left: 470px;
     top: -300px;
@@ -315,6 +315,26 @@ h2{
     border-left: none;
     height: 300px;
     display: none;
-  }
+}
+
+h3{
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+    color: rgb(41, 41, 41);
+}
+
+.duration{
+    position: relative;
+    top: -50px;
+    color: rgb(78, 76, 76);
+}
+
+.paragraph{
+    font-size: 18px;
+    position: relative;
+    top: -45px;
+    color: rgb(41, 41, 41);
+}
 
 
