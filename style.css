@@ -6,7 +6,7 @@
 .hello{
     color:  rgb(98, 98, 199);
     position: relative;
-    left: 90px;
+    left: 120px;
 }
 
 .myname{
@@ -14,7 +14,7 @@
     color: rgb(47, 47, 47);
     margin-top: -17px;
     position: relative;
-    left: 90px;
+    left: 120px;
 }
 
 .mycareer{
@@ -22,12 +22,12 @@
     color: rgb(86, 86, 130);
     margin-top: -100px;
     position: relative;
-    left: 90px;
+    left: 120px;
 }
 
 .intro{
     position: relative;
-    left: 90px;
+    left: 120px;
     color: rgb(86, 86, 130);
     font-size: 18px;
     top: -80px;
@@ -35,7 +35,7 @@
 
 #btn{
     position: relative;
-    left: 90px;
+    left: 120px;
     color:  rgb(98, 98, 199);
     border: 1.5px solid  rgb(98, 98, 199);
     border-radius: 4px;
@@ -50,7 +50,7 @@
 h1{
     
     position: relative;
-    left: 90px; 
+    left: 120px; 
     font-size: 40px;
     color: rgb(41, 41, 41);
 }
@@ -61,7 +61,7 @@ h1:before {
     width: 250px;
     height: 1px;
     background: #000;
-    left: 200px;
+    left: 210px;
     top: 50%;
     position: absolute;
     background-color: rgb(153, 153, 153);
@@ -69,7 +69,7 @@ h1:before {
 
 .aboutmeparagraph{
     position: relative;
-    left: 90px;
+    left: 120px;
     font-size: 18px;
     color: rgb(41, 41, 41);
 }
@@ -102,7 +102,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    left: 350px;
+    left: 250px;
     background-color: white;
 }
 
@@ -116,7 +116,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    left: 400px;
+    left: 300px;
     background-color: white;
 }
 
@@ -130,7 +130,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    left: 450px;
+    left: 350px;
     background-color: white;
 }
 
@@ -144,7 +144,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    left: 500px;
+    left: 400px;
     background-color: white;
 }
 
@@ -159,7 +159,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     top: 70px;
-    left: -100px;
+    left: -200px;
     background-color: white;
 }
 
@@ -174,7 +174,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     top: 70px;
-    left: -40px;
+    left: -150px;
     background-color: white;
 }
 
@@ -189,7 +189,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     top: 70px;
-    left: 20px;
+    left: -100px;
     background-color: white;
 }
 
@@ -204,7 +204,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     top: 140px;
-    left: -400px;
+    left: -500px;
     background-color: white;
 }
 
@@ -219,7 +219,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     top: 140px;
-    left: -350px;
+    left: -450px;
     background-color: white;
 }
 
@@ -237,38 +237,83 @@ h2{
 
 
 /* Style the sidebar - fixed full height */
-.sidebar {
+/* .sidebar {
     height: 35%;
-    width: 160px;
+    width: 200px;
     position: relative;
     z-index: 1;
     top: 0;
-    left: 70px;
-    background-color: white;
+    left: 120px;
+    background-color: red;
     overflow-x: hidden;
     padding-top: 16px;
-  }
+  } */
   
   /* Style sidebar links */
-  .sidebar a {
+  /* .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
     color: #818181;
     display: block;
   }
-  
+   */
   /* Style links on mouse-over */
-  .sidebar a:hover {
+  /* .sidebar a:hover {
     color:  rgb(98, 98, 199);
     text-decoration: underline  rgb(98, 98, 199);;
-  }
+  } */
   
   /* Style the main content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+  /* .main {
+    left: 370px;
     padding: 0px 10px;
-  }
+    position: relative;
+    top: -150px;
+  } */
 
+
+/* Style the tab */
+.tab {
+    position: relative;
+    left: 120px;
+    width: 20%;
+    height: 250px;
+    background-color: red;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    display: none;
+  }
 
 
