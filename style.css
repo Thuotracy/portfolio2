@@ -264,7 +264,7 @@ h2{
   /* Change background color of buttons on hover */
 .tab button:hover {
     color:  rgb(98, 98, 199);
-    background-color:  rgb(98, 98, 199);
+    background-color:  rgba(98, 98, 199, 0.327);
 }
   
   /* Create an active/current "tab button" class */
@@ -322,9 +322,6 @@ h3{
     right: -10px;
 }
 
-#verticalLine:hover{
-  color: rgb(98, 98, 199);
-}
 
 
 
