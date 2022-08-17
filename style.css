@@ -322,6 +322,56 @@ h3{
     right: -10px;
 }
 
+.projectheader{
+    position: relative;
+    top: -20px;
+}
+
+.thumbnail{
+    position: relative;
+    left: 120px;
+    border-radius: 8px;
+    height: 300px;
+    width: 470px;
+}
+
+.projectcards{
+    position: relative;
+    top: -200px;
+    background-color: rgb(237, 232, 232);
+    left: 500px;
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.p{
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+.thumbnail1{
+    position: relative;
+    right: -535px;
+    border-radius: 8px;
+    height: 300px;
+    width: 470px;
+    top: -60px;
+}
+
+.projectcards1{
+    position: relative;
+    top: -250px;
+    background-color: rgb(237, 232, 232);
+    left: 140px;
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    align-content: center;
+}
+
 
 
 
