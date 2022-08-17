@@ -278,7 +278,7 @@ h2{
     position: relative;
     left: 120px;
     width: 20%;
-    height: 250px;
+    height: 300px;
     background-color: red;
   }
   
@@ -307,10 +307,11 @@ h2{
   
   /* Style the tab content */
   .tabcontent {
-    float: left;
+    position: relative;
+    left: 470px;
+    top: -300px;
     padding: 0px 12px;
-    border: 1px solid #ccc;
-    width: 70%;
+    width: 40%;
     border-left: none;
     height: 300px;
     display: none;
