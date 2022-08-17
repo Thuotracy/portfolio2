@@ -340,7 +340,7 @@ h3{
 .dot {
     height: 6px;
     width: 6px;
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     border-radius: 50%;
     display: inline-block;
     position: relative;
