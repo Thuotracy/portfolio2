@@ -371,10 +371,40 @@ h3{
     border-radius: 10px;
     align-content: center;
 }
-img {
-    -webkit-filter: lightbluescale(100%); /* Safari 6.0 - 9.0 */
-    filter: lightbluescale(100%);
+
+.logo{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 75px;
+    left: 450px;
 }
+
+.logo1{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 170px;
+    left: 940px;
+}
+
+.logo2{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: -640px;
+    left: 170px;
+}
+
+.logo3{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top:-260px;
+    left: 170px;
+}
+
+
 
 
 
