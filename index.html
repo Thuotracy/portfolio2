@@ -10,11 +10,11 @@
 <body>
     <img class="label" src="images/label.png" alt="">
     <section class="navigation-bar">
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Skills</a>
-        <a class="nav-link" href="#">Experience</a>
-        <a class="nav-link" href="#">Projects</a>
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
     </section>
 
     <section>
@@ -29,7 +29,7 @@
         <button id="btn">Get In Touch</button>
     </section>
 
-    <section>
+    <section id="about">
         <h1>About Me</h1>
         <p class="aboutmeparagraph">A self-driven graduate from Moringa School who has gained skills in both <br> and backend development.<br><br>
             I believe my skills would help with the expansion the world is undergoing <br> in the technological aspect and I want to be part of the growth.<br><br>
@@ -38,7 +38,7 @@
         <img id="me" src="images/puppy.jpg" alt="">      
     </section>
 
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
         <div class="btn-group"> 
             <div class="card1"> <img class="angular" src="images/css.png">CSS</div>
@@ -53,7 +53,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="experience">
         <h1>Experience</h1>
         <div class="tab" id="verticalLine">
             <button class="tablinks" onclick="openCity(event, 'Andela Learning Community')">Andela Learning Community</button>
@@ -111,7 +111,7 @@
           
     </section>
 
-    <section>
+    <section id="projects">
         <div>
             <h2 class="projectheader">Projects</h2>
             <img class="thumbnail" src="images/awwards.png" alt="">
@@ -151,26 +151,28 @@
         </div>   
     </section>
       
-    <section>
-        <h2 style="position: relative; top: -250px;">Get In Touch</h2>
+    <section id="contact">
+        <h2 style="position: relative; top: -300px;">Get In Touch</h2>
         <div class="center">
             <form method="post">
                 <div class="txt_field">
                     <input type="text" required>
-                    <label>Name</label>
+                    <placeholder>Name</placeholder>
                 </div>
                 <div class="txt_field">
                     <input type="text" required>
-                    <label>Subject</label>
+                    <placeholder>Subject</placeholder>
                 </div>
                 <div class="txt_field">
                     <input type="email" required>
-                    <label>Email</label>
+                    <placeholder>Email</placeholder>
                 </div>
-                <div class="txt_field">
-                    <input type="email" required>
-                    <label>Message</label>
+                <div class="txt_field1">
+                    <input type="text" required>
+                    <placeholder>Message</placeholder>
                 </div>
+                <button id="btn1">Send</button>
+
             </form>
 
         </div>

@@ -14,10 +14,10 @@ html, body {
 .navigation-bar{
     text-align: center;
     word-spacing: 40px;
-    list-style-type: none;
+    /* list-style-type: none; */
     width: 600px;
     background-color: rgba(255, 255, 255, 0.894);
-    position: fixed;
+    /* position: fixed; */
     height: 50px;
     overflow: auto;
     margin-left: 300px;
@@ -40,13 +40,13 @@ html, body {
     color:  rgba(59,130,246);
     position: relative;
     left: 120px;
-    top: 30px;
+    top: 25px;
 }
 
 .myname{
     font-size: 90px;
     color: rgb(47, 47, 47);
-    margin-top: 40px;
+    margin-top: 35px;
     position: relative;
     left: 120px;
 }
@@ -54,7 +54,7 @@ html, body {
 .mycareer{
     font-size: 100px;
     color: rgba(100,116,139);
-    margin-top: -100px;
+    margin-top: -110px;
     position: relative;
     left: 120px;
 }
@@ -64,7 +64,7 @@ html, body {
     left: 120px;
     color:  rgba(100,116,139);
     font-size: 18px;
-    top: -80px;
+    top: -90px;
 }
 
 #btn{
@@ -76,24 +76,24 @@ html, body {
     padding: 15px;
     font-size: 15px;
     box-sizing: 25px;
-    top: -50px;
+    top: -60px;
     letter-spacing: 1px;
     background-color: white;
     width: 160px;
 }
 
 #btn:hover{
-    background-color: rgba(59,130,246);
+    background-color: rgba(59, 131, 246, 0.328);
 }
 
 h1{
     
     position: relative;
     left: 120px; 
-    font-size: 40px;
+    font-size: 45px;
     color: rgb(41, 41, 41);
     position: relative;
-    top: 25px;
+    top: 60px;
 }
 
 h1:before {
@@ -102,8 +102,8 @@ h1:before {
     width: 250px;
     height: 1px;
     background: #000;
-    left: 210px;
-    top: 50%;
+    left: 230px;
+    top: 65%;
     position: absolute;
     background-color: rgb(153, 153, 153);
   }
@@ -111,17 +111,17 @@ h1:before {
 .aboutmeparagraph{
     position: relative;
     left: 120px;
-    top: 20px;
-    font-size: 18px;
+    top: 70px;
+    font-size: 19px;
     color: rgb(41, 41, 41);
 }
 
 #me{
-    height: 240px;
-    width: 240px;
+    height: 270px;
+    width: 270px;
     position: relative;
     left: 750px;
-    top: -210px;
+    top: -160px;
     border-radius: 8px;
 }
 
@@ -130,7 +130,7 @@ h2{
     font-size: 40px;
     font-weight: 20px;
     position: relative;
-    top: -170px;
+    top: -80px;
     color: rgb(41, 41, 41);
 }
 
@@ -145,6 +145,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     left: 250px;
+    top: 110px;
     background-color: white;
 }
 
@@ -159,6 +160,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     left: 300px;
+    top: 110px;
     background-color: white;
 }
 
@@ -173,6 +175,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     left: 350px;
+    top: 110px;
     background-color: white;
 }
 
@@ -187,6 +190,7 @@ h2{
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
     left: 400px;
+    top: 110px;
     background-color: white;
 }
 
@@ -200,7 +204,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 70px;
+    top: 170px;
     left: -200px;
     background-color: white;
 }
@@ -215,7 +219,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 70px;
+    top: 170px;
     left: -150px;
     background-color: white;
 }
@@ -230,7 +234,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 70px;
+    top: 170px;
     left: -100px;
     background-color: white;
 }
@@ -245,7 +249,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 140px;
+    top: 230px;
     left: -500px;
     background-color: white;
 }
@@ -260,7 +264,7 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 140px;
+    top: 230px;
     left: -450px;
     background-color: white;
 }
@@ -300,13 +304,13 @@ h2{
   
   /* Change background color of buttons on hover */
 .tab button:hover {
-    color:  rgb(98, 98, 199);
-    background-color:  rgba(98, 98, 199, 0.327);
+    color:  rgba(59, 131, 246, 0.798);
+    background-color:  rgba(59, 131, 246, 0.378);
 }
   
   /* Create an active/current "tab button" class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: rgba(228, 222, 222, 0.463);
 }
   
   /* Style the tab content */
@@ -457,29 +461,85 @@ h3{
 
 form .txt_field{
     position: relative;
-    border-bottom: 2px solid rgb(78, 76, 76);
+    border-bottom: 1px solid rgb(153, 153, 153);
     margin: 30px 0;
+}
+
+
+input[type=text]:focus{
+    outline: 2px solid rgba(59,130,246);  
+}
+
+input[type=email]:focus{
+    outline: 2px solid rgba(59,130,246);  
 }
 
 .txt_field input{
     width: 100%;
     padding: 0 5px;
-    height: 40px;
+    height: 45px;
     font-size: 16px;
     border: none;
     outline: none;
     background: none;
 }
 
-.txt_field label{
+.txt_field placeholder{
     position: absolute;
-    top: 50%;
+    top: -10px;
     left: 5px;
     color: rgb(78, 76, 76);
     transform: translateY(-50%);
     font-size: 16px;
     pointer-events: none;
 }
+
+form .txt_field1{
+    position: relative;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    margin: 30px 0;
+}
+
+.txt_field1 input{
+    width: 100%;
+    padding: 0 5px;
+    height: 70px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.txt_field1 placeholder{
+    position: absolute;
+    top: -20%;
+    left: 5px;
+    color: rgb(78, 76, 76);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+#btn1{
+    position: relative;
+    left: 80px;
+    color:  rgba(59,130,246);
+    border: 2px solid  rgba(59,130,246);
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    box-sizing: 25px;
+    top: -5px;
+    letter-spacing: 1px;
+    background-color: white;
+    width: 130px;
+}
+
+#btn1:hover{
+    background-color: rgba(59, 131, 246, 0.328);
+}
+
+
 
 
 
