@@ -144,8 +144,8 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    left: 250px;
-    top: 110px;
+    left: 300px;
+    top: 80px;
     background-color: white;
 }
 
@@ -159,8 +159,8 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    left: 300px;
-    top: 110px;
+    left: 350px;
+    top: 80px;
     background-color: white;
 }
 
@@ -174,8 +174,8 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    left: 350px;
-    top: 110px;
+    left: 400px;
+    top: 80px;
     background-color: white;
 }
 
@@ -189,8 +189,8 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    left: 400px;
-    top: 110px;
+    left: 450px;
+    top: 80px;
     background-color: white;
 }
 
@@ -204,8 +204,8 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 170px;
-    left: -200px;
+    top: 160px;
+    left: -150px;
     background-color: white;
 }
 
@@ -219,8 +219,8 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 170px;
-    left: -150px;
+    top: 160px;
+    left: -100px;
     background-color: white;
 }
 
@@ -234,8 +234,8 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 170px;
-    left: -100px;
+    top: 160px;
+    left: -50px;
     background-color: white;
 }
 
@@ -249,8 +249,8 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 230px;
-    left: -500px;
+    top: 240px;
+    left: -450px;
     background-color: white;
 }
 
@@ -264,15 +264,23 @@ h2{
     border-radius: 6px;
     padding: 15px;
     border: 1px solid rgb(153, 153, 153);
-    top: 230px;
-    left: -450px;
+    top: 240px;
+    left: -400px;
     background-color: white;
 }
-
 
 .angular{
     height: 30px;
     width: 30px;
+}
+
+#exp{
+    position: relative;
+    left: 120px; 
+    font-size: 45px;
+    color: rgb(41, 41, 41);
+    position: relative;
+    top: 130px;
 }
 
 .btn-group{
