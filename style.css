@@ -36,6 +36,20 @@ html, body {
     color: rgba(59,130,246);
 }
 
+#nav{
+    text-align: center;
+    word-spacing: 40px;
+    /* list-style-type: none; */
+    width: 600px;
+    background-color: white;
+    /* position: fixed; */
+    height: 50px;
+    top: 65px;
+    font-family: monospace; 
+    font-weight: 0.5em;
+    
+}
+
 .hello{
     color:  rgba(59,130,246);
     position: relative;
@@ -62,7 +76,7 @@ html, body {
 .v1 {
     position: fixed;
     border-left: 1px solid rgb(153, 153, 153);
-    height: 800px;
+    height: 200px;
     /* position: relative; */
     left: 75px;
 }
@@ -86,6 +100,26 @@ html, body {
     top: -35px;
     left: -68px;
     color: rgb(153, 153, 153);
+}
+
+.v2 {
+    position: fixed;
+    border-left: 1px solid rgb(153, 153, 153);
+    height: 200px;
+    /* position: relative; */
+    right: 58px;
+}
+
+#mail{
+    position: relative;
+    top: -200px;
+    text-decoration: none;
+    right: 10px;
+    color:rgb(153, 153, 153);
+}
+
+#mail:hover{
+    color:  rgba(59,130,246);
 }
 
 .intro{
