@@ -36,20 +36,6 @@ html, body {
     color: rgba(59,130,246);
 }
 
-#nav{
-    text-align: center;
-    word-spacing: 40px;
-    /* list-style-type: none; */
-    width: 600px;
-    background-color: white;
-    /* position: fixed; */
-    height: 50px;
-    top: 65px;
-    font-family: monospace; 
-    font-weight: 0.5em;
-    
-}
-
 .hello{
     color:  rgba(59,130,246);
     position: relative;
