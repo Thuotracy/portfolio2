@@ -65,13 +65,28 @@ html, body {
     height: 800px;
     /* position: relative; */
     left: 75px;
-  }
+}
 
   .logos2{
     position: relative;
-    top: -90px;
-    left: -10px;
-  }
+    top: -100px;
+    left: -11px;
+    color: rgb(153, 153, 153);
+}
+
+  .logos3{
+    position: relative;
+    top: -65px;
+    left: -40px;
+    color: rgb(153, 153, 153);
+}
+
+  .logos4{
+    position: relative;
+    top: -35px;
+    left: -68px;
+    color: rgb(153, 153, 153);
+}
 
 .intro{
     position: relative;
