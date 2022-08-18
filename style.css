@@ -59,6 +59,20 @@ html, body {
     left: 120px;
 }
 
+.v1 {
+    position: fixed;
+    border-left: 1px solid rgb(153, 153, 153);
+    height: 800px;
+    /* position: relative; */
+    left: 75px;
+  }
+
+  .logos2{
+    position: relative;
+    top: -90px;
+    left: -10px;
+  }
+
 .intro{
     position: relative;
     left: 120px;
