@@ -376,7 +376,7 @@ h2{
 .tabcontent {
     position: relative;
     left: 470px;
-    top: -160px;
+    top: 10px;
     padding: 0px 12px;
     width: 40%;
     border-left: none;
@@ -417,7 +417,7 @@ h3{
 
 #verticalLine {
     border-left: 2px solid rgb(78, 76, 76);
-    height: 250px;
+    height: 60px;
     position: relative;
     right: -10px;
 }
