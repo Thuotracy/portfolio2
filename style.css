@@ -172,6 +172,7 @@ h1:before {
     left: 750px;
     top: -160px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 h2{
